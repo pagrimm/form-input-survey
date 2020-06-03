@@ -1,6 +1,6 @@
-# Portfolio Project
+# Survey Form
 
-#### , 05.29.2020
+#### Input practice for Epicodus, 05.29.2020
 
 #### By **Peter Grimm**
 
