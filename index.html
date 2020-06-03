@@ -9,7 +9,44 @@
   <script src="js/scripts.js"></script>
   <title>Document</title>
 </head>
-<body>
-  
+<body class="container">
+  <section class="panel panel-default">
+    <form id="survey">
+      <label for="name">Name</label>
+      <input id="name" class="form-control" type="text">
+      <label for="birthday">Birthdate</label>
+      <input id="birthday" class="form-control" type="date">
+      <label for="favcolor">Favorite Color</label>
+      <input id="favcolor" class="form-control" type="color">
+      <label for="favpet">Favorite Type of Pet</label>
+      <select class="form-control" id="favpet">
+        <option>Cat</option>
+        <option>Dog</option>
+        <option>Bird</option>
+        <option>Lizard</option>
+        <option>Snake</option>
+      </select>
+      <label for="cokepepsi">Coke or Pepsi</label>
+      <div class="cokepepsi">
+        <label>
+          <input type="radio" name="drink" value="Coke" checked>
+          Coke
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="drink" value="Pepsi">
+          Pepsi
+        </label>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+  <h1>Survey Results</h1>
+  <p class="name-result"></p>
+  <p class="birthday-result"></p>
+  <p class="favcolor-result"></p>
+  <p class="favpet-result"></p>
+  <p class="cokepepsi-result"></p>
 </body>
 </html>
